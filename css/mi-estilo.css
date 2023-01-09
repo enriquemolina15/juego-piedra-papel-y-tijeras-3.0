@@ -1,0 +1,19 @@
+/* Aquí escribiremos el código CSS */
+ footer {
+    font-family: cursive;
+    color: antiquewhite;
+    background-color: black;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgb(234, 180, 191);
+}
+table,
+th,
+td {
+    border: 1px solid black
+}
+th{
+    background-color: rgb(159, 159, 205);
+}
