@@ -8,11 +8,17 @@ table {
     margin: 0 auto;
     border-collapse: collapse;
     background-color: rgb(234, 180, 191);
+    width: 50%;
+    
+    
 }
 table,
 th,
 td {
-    border: 1px solid black
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+    font-family:fantasy ;
 }
 th{
     background-color: rgb(159, 159, 205);

@@ -35,6 +35,7 @@
                 </div>
                 <div class="col text-center">
                     <p id="puntos">SCORE: 0</p>
+                    <p id="numeroPartidas">Numero de Jugadas : 0</p>
                 </div>
             </div>
             <div   class="border-danger  display-1 row">
@@ -42,34 +43,13 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <button class=" btn btn-primary" onclick="borrar()">Nueva jugada</button>
+                    <button  id="btnJugadas" class=" btn btn-primary">Nueva jugada</button>
                 </div>
                 <div class="col text-center">
-                    <button  type="reset" class=" btn btn-danger ">Nueva partida</button>
+                    <button  onclick="refrescar()" class=" btn btn-danger ">Nueva partida</button>
                 </div>
             </div>
-            <div class="p-5">
-                <div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>RECORD</th>
-                             </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td id="celda1">resultado</td>
-                            </tr>
-                            <tr>
-                                <td id="celda2">resultado</td>
-                            </tr>
-                            <tr>
-                                <td id="celda3">resultado</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+           
     </main>
     <footer class=" text-center ">
         <p>Copyright (c) 2022 - Enrique</p>
